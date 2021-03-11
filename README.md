@@ -1,10 +1,10 @@
 # archguide
 A GUide to help you install archlinux easily without hurting your brain
 
-#ArchLinux Installation and setting up users guide:
+# ArchLinux Installation and setting up users guide:
 
 
-#(use the archwiki installation guide if you don't know how to do a certain step)
+# (use the archwiki installation guide if you don't know how to do a certain step)
 
 0. Download your iso 
 1. Boot from the .iso (either in VirtualBox or by making a bootable USB)
@@ -25,19 +25,19 @@ A GUide to help you install archlinux easily without hurting your brain
 
 Edit  /etc/locale.genand uncomment  en_US.UTF-8 UTF-8and other needed locales. Generate the locales by running: 
 
-# locale-gen
-#
-# Create the locale.conf(5) file, and set the LANG variable accordingly: 
-#
-# /etc/locale.conf
-#
-# LANG=en_US.UTF-8
+ locale-gen
+
+ Create the locale.conf(5) file, and set the LANG variable accordingly: 
+
+ /etc/locale.conf
+
+ LANG=en_US.UTF-8
 )........................
 
 
 13. exit chroot, unmount, and reboot into your arch environment
 
-#Users creation and finalizing:
+# Users creation and finalizing:
 
 14. create user, "useradd -mg wheel <USERNAME>"
 15. set password for new user, "passwd <USERNAME>"
