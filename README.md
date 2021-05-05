@@ -4,7 +4,7 @@ A Guide to help you install archlinux easily without hurting your brain
 ## ArchLinux Installation and setting up users guide:
 
 
-## (use the archwiki installation guide if you don't know how to do a certain step)
+#### (use the archwiki installation guide if you don't know how to do a certain step)
 
 - Download your iso 
 - Boot from the .iso (either in VirtualBox or by making a bootable USB)
