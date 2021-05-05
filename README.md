@@ -1,5 +1,5 @@
-# archguide
-A GUide to help you install archlinux easily without hurting your brain
+# ArchGuide
+A Guide to help you install archlinux easily without hurting your brain
 
 ## ArchLinux Installation and setting up users guide:
 
@@ -37,7 +37,7 @@ A GUide to help you install archlinux easily without hurting your brain
 
 -  exit chroot, unmount, and reboot into your arch environment
 
-# Users creation and finalizing:
+## Users creation and finalizing:
 
 -  create user, "useradd -mg wheel <USERNAME>"
 -   set password for new user, "passwd <USERNAME>"
